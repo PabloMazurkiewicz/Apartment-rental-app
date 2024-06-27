@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "typeRoots": ["./types"],
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "baseUrl": "./",
+        "paths": {
+            "@/controllers/*": ["controllers/*"],
+            "@/routes/*": ["routes/*"],
+            "@/types/*": ["types/*"],
+            "@/utils/*": ["utils/*"],
+            "@/orm/*": ["orm/*"],
+            "@/daos/*": ["daos/*"],
+            "@/middlewares/*": ["middlewares/*"]
+        },
+    },
+    "include": ["**/*.ts", "types/**/*.ts"]
+}

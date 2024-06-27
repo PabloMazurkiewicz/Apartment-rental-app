@@ -1,0 +1,11 @@
+.login-form {
+    min-width: 400px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+
+.login-form-button {
+    width: 100%;
+}
